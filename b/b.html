@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ธีระภัทร เพียช่อ (ไวท์)</title>
+</head>
+<body>
+    <h1>ธีระภัทร เพียช่อ (ไวท์)</h1>
+
+    <form method="post" action="z.php" enctype="multipart/form-data">
+        ชื่อ-สกุล <input type="text" name="Full name"required> <br> <br>
+        อีเมล <input type="text" name="Email"> <br> <br>
+        อายุ <input type="number" name="age" min="18" max="60" > ปี <br><br>
+        วันที่ <input type="date" name="date"><br><br>
+        สี <input type="color" name="color"><br><br>
+        ที่อยู่ <br>
+        <textarea name="address" id="" cols="30" rows="10"></textarea> <br><br>
+        
+        อาหารที่ชอบ <br>
+        <input type="checkbox" name="food()" value="ข้าวมันไก่" checked > ข้าวมันไก่ 
+        <input type="checkbox" name="food()" value="ข้าวขาหมู"> ข้าวขาหมู 
+        <input type="checkbox" name="food()" value="ก๋วยเตี๋ยว"checked > ก๋วยเตี๋ยว 
+        <input type="checkbox" name="food()" value="ไก่ย่างส้มตำ"> ไก่ย่างส้มตำ 
+        <input type="checkbox" name="food()" value="ลาบหมู"> ลาบหมู <br><br>
+
+         สาขาวิชา
+         <select name="majer" >
+            <option value="DBIS">DBIS</option>
+            <option value="BC">BC</option>
+        
+        
+        </select> <br><br>
+        รูปภาพ
+        <input type="file" name="picture"> <br> <br>
+        
+        
+        
+        <!--<input type="submit" name="submit" value="ลงทะเบียน">-->
+        <button type="submit" name="submit"> ลงทะเบียน </button>
+        <button type="reset">reset</button>
+        <button type="button" onclick="window.print();">พิมพ์หน้านี้</button>
+        <button type="button" onmouseover="alert('สวัสดี')">Alert</button>
+        <button type="button" onclick="window.location='https://www.lazada.co.th/';">Lazada</button>
+    </form>
+</body>
+</html>
